@@ -1,0 +1,19 @@
+﻿<Window x:Class="Teht2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teht2"
+        mc:Ignorable="d"
+        Title="Teht2 - Lotto" Height="494.118" Width="293.627">
+    <Grid>
+        <Label x:Name="label_game" Content="Choose the game" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_draws" Content="Number of draws" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox_game" HorizontalAlignment="Left" Margin="134,14,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_draws" HorizontalAlignment="Left" Height="23" Margin="134,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="button_draw" Content="Draw" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="75" Click="button_draw_Click"/>
+        <Button x:Name="button_clear" Content="Clear" HorizontalAlignment="Left" Margin="114,89,0,0" VerticalAlignment="Top" Width="75" Click="button_clear_Click"/>
+        <TextBlock x:Name="textBlock_result" HorizontalAlignment="Left" Margin="10,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="326" Width="266"/>
+
+    </Grid>
+</Window>

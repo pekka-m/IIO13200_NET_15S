@@ -1,0 +1,14 @@
+D:\H3173\net-ohjelmointi\Teht3\bin\Debug\Liiga.exe.config
+D:\H3173\net-ohjelmointi\Teht3\bin\Debug\Liiga.exe
+D:\H3173\net-ohjelmointi\Teht3\bin\Debug\Liiga.pdb
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\MainWindow.g.cs
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\App.g.cs
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga_MarkupCompile.cache
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga_MarkupCompile.lref
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\MainWindow.baml
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga.g.resources
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Teht3.Properties.Resources.resources
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Teht3.csproj.GenerateResource.Cache
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga.exe
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga.pdb
+D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Teht3.csprojResolveAssemblyReference.cache

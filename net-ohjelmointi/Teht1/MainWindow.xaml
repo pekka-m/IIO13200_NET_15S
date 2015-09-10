@@ -1,0 +1,25 @@
+﻿<Window x:Class="Teht1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teht1"
+        mc:Ignorable="d"
+        Title="Teht1 - Ikkunat" Height="221.605" Width="525">
+    <Grid>
+        <TextBox x:Name="txtIkkunanLeveys" HorizontalAlignment="Left" Height="23" Margin="131,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIkkunanKorkeus" HorizontalAlignment="Left" Height="23" Margin="131,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtKarminLeveys" HorizontalAlignment="Left" Height="23" Margin="131,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblIkkunanLeveys" Content="Ikkunan leveys" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIkkunanKorkeus" Content="Ikkunan korkeus" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblKarminLeveys" Content="Karmin leveys" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Laske kaikki" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="lblIkkunaLasinAla" Content="Ikkunalasin pinta-ala" HorizontalAlignment="Left" Margin="302,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblKarminPiiri" Content="Karmin piiri" HorizontalAlignment="Left" Margin="302,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblKarminAla" Content="Karmin pinta-ala" HorizontalAlignment="Left" Margin="302,99,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="blckIkkunanAla" HorizontalAlignment="Left" Margin="441,42,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top"/>
+        <TextBlock x:Name="blckKarminPiiri" HorizontalAlignment="Left" Margin="441,73,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top"/>
+        <TextBlock x:Name="blckKarminAla" HorizontalAlignment="Left" Margin="441,104,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
