@@ -12,3 +12,6 @@ D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Teht3.csproj.GenerateResource.Cache
 D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga.exe
 D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Liiga.pdb
 D:\H3173\net-ohjelmointi\Teht3\obj\Debug\Teht3.csprojResolveAssemblyReference.cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht3\bin\Debug\Liiga.exe.config
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht3\obj\Debug\Liiga.exe
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht3\obj\Debug\Liiga.pdb
