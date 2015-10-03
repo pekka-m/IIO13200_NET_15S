@@ -26,3 +26,6 @@ d:\Users\Pekka\Documents\amkki\net-ohjelmointi\Teht1\obj\Debug\MainWindow.baml
 d:\Users\Pekka\Documents\amkki\net-ohjelmointi\Teht1\obj\Debug\Ikkunat.g.resources
 d:\Users\Pekka\Documents\amkki\net-ohjelmointi\Teht1\obj\Debug\Teht1.Properties.Resources.resources
 d:\Users\Pekka\Documents\amkki\net-ohjelmointi\Teht1\obj\Debug\Teht1.csproj.GenerateResource.Cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht1\bin\Debug\Ikkunat.exe.config
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht1\obj\Debug\Ikkunat.exe
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht1\obj\Debug\Ikkunat.pdb
