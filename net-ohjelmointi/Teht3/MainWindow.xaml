@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Teht3"
         mc:Ignorable="d"
-        Title="Liiga - Teht3" Height="202.468" Width="591.049">
+        Title="Liiga - Teht3" Height="235.873" Width="591.049">
     <Grid>
         <Label x:Name="label_etunimi" Content="Etunimi" HorizontalAlignment="Left" Margin="16,8,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_sukunimi" Content="Sukunimi" HorizontalAlignment="Left" Margin="16,39,0,0" VerticalAlignment="Top"/>
@@ -15,12 +15,19 @@
         <TextBox x:Name="textBox_sukunimi" HorizontalAlignment="Left" Height="23" Margin="102,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBox_siirtohinta" HorizontalAlignment="Left" Height="23" Margin="102,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboBox_seura" HorizontalAlignment="Left" Margin="102,105,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="button_uusiPelaaja" Content="Luo uusi pelaaja" HorizontalAlignment="Left" Margin="235,10,0,0" VerticalAlignment="Top" Width="99" Click="button_uusiPelaaja_Click"/>
-        <Button x:Name="button_tallenna" Content="Talleta pelaaja" HorizontalAlignment="Left" Margin="235,41,0,0" VerticalAlignment="Top" Width="99" Click="button_tallenna_Click"/>
-        <Button x:Name="button_poista" Content="Poista pelaaja" HorizontalAlignment="Left" Margin="235,72,0,0" VerticalAlignment="Top" Width="99" Click="button_poista_Click"/>
-        <Button x:Name="button_kirjoita" Content="Kirjoita pelaajat" HorizontalAlignment="Left" Margin="235,103,0,0" VerticalAlignment="Top" Width="99" Click="button_kirjoita_Click"/>
-        <Button x:Name="button_lopetus" Content="Lopetus" HorizontalAlignment="Left" Margin="235,134,0,0" VerticalAlignment="Top" Width="99" Click="button_lopetus_Click"/>
+        <Button x:Name="button_uusiPelaaja" Content="Luo uusi pelaaja" HorizontalAlignment="Left" Margin="227,10,0,0" VerticalAlignment="Top" Width="116" Click="button_uusiPelaaja_Click"/>
+        <Button x:Name="button_tallenna" Content="Talleta pelaaja" HorizontalAlignment="Left" Margin="227,35,0,0" VerticalAlignment="Top" Width="116" Click="button_tallenna_Click"/>
+        <Button x:Name="button_poista" Content="Poista pelaaja" HorizontalAlignment="Left" Margin="227,60,0,0" VerticalAlignment="Top" Width="116" Click="button_poista_Click"/>
+        <Button x:Name="button_kirjoita" Content="Kirjoita tiedostoon" HorizontalAlignment="Left" Margin="227,85,0,0" VerticalAlignment="Top" Width="116" Click="button_kirjoita_Click"/>
+        <Button x:Name="button_lopetus" Content="Lopetus" HorizontalAlignment="Left" Margin="227,110,0,0" VerticalAlignment="Top" Width="116" Click="button_lopetus_Click"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="152" Margin="348,10,0,0" VerticalAlignment="Top" Width="225" SelectionChanged="listBox_SelectionChanged"/>
+        <DockPanel Height="24" VerticalAlignment="Bottom">
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBarItem>
+                    <TextBlock Name="statusBarText" />
+                </StatusBarItem>
+            </StatusBar>
+        </DockPanel>
 
     </Grid>
 </Window>

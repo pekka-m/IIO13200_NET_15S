@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,69 +23,96 @@ namespace Teht3
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollection<Pelaaja> pelaajat = new ObservableCollection<Pelaaja>();
+        List<String> joukkueet = new List<String>();
+
         public MainWindow()
         {
             InitializeComponent();
-            comboBox_seura.Items.Add("Blues");
-            comboBox_seura.Items.Add("HIFK");
-            comboBox_seura.Items.Add("HPK");
-            comboBox_seura.Items.Add("Ilves");
-            comboBox_seura.Items.Add("JYP");
-            comboBox_seura.Items.Add("KalPa");
-            comboBox_seura.Items.Add("KooKoo");
-            comboBox_seura.Items.Add("Kärpät");
-            comboBox_seura.Items.Add("Lukko");
-            comboBox_seura.Items.Add("Pelicans");
-            comboBox_seura.Items.Add("SaiPa");
-            comboBox_seura.Items.Add("Sport");
-            comboBox_seura.Items.Add("Tappara");
-            comboBox_seura.Items.Add("TPS");
-            comboBox_seura.Items.Add("Ässät");
+            joukkueet.Add("Blues");
+            joukkueet.Add("HIFK");
+            joukkueet.Add("HPK");
+            joukkueet.Add("Ilves");
+            joukkueet.Add("JYP");
+            joukkueet.Add("KalPa");
+            joukkueet.Add("KooKoo");
+            joukkueet.Add("Kärpät");
+            joukkueet.Add("Lukko");
+            joukkueet.Add("Pelicans");
+            joukkueet.Add("SaiPa");
+            joukkueet.Add("Sport");
+            joukkueet.Add("Tappara");
+            joukkueet.Add("TPS");
+            joukkueet.Add("Ässät");
+            comboBox_seura.ItemsSource = joukkueet;
+            listBox.ItemsSource = pelaajat;
+            listBox.DisplayMemberPath = "kokonimi";
+            statusBarText.Text = "Kaikki valmista.";
         }
 
         private void button_uusiPelaaja_Click(object sender, RoutedEventArgs e)
         {
-            if (!tarkasta())
+            if (!tarkastaUusi())
             {
-                listBox.Items.Add(new Pelaaja
+                pelaajat.Add(new Pelaaja
                 {
                     etunimi = textBox_etunimi.Text,
                     sukunimi = textBox_sukunimi.Text,
                     seura = comboBox_seura.Text,
                     siirtohinta = double.Parse(textBox_siirtohinta.Text)
                 });
-                listBox.DisplayMemberPath = "kokonimi";
+                statusBarText.Text = "Pelaaja lisätty.";
             }
+            else statusBarText.Text = "Ilmeni mystinen virhe!";
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (listBox.SelectedItem != null)
             {
-                Pelaaja pelaaja = (Pelaaja)(listBox.SelectedItem);
-                textBox_etunimi.Text = pelaaja.etunimi;
-                textBox_sukunimi.Text = pelaaja.sukunimi;
-                textBox_siirtohinta.Text = pelaaja.siirtohinta.ToString();
-                comboBox_seura.SelectedItem = pelaaja.seura;
+                textBox_etunimi.Text = (listBox.SelectedItem as Pelaaja).etunimi;
+                textBox_sukunimi.Text = (listBox.SelectedItem as Pelaaja).sukunimi;
+                textBox_siirtohinta.Text = (listBox.SelectedItem as Pelaaja).siirtohinta.ToString();
+                comboBox_seura.SelectedItem = (listBox.SelectedItem as Pelaaja).seura;
             }
         }
 
         private void button_poista_Click(object sender, RoutedEventArgs e)
         {
-            listBox.Items.Remove(listBox.SelectedItem);
+            if (listBox.SelectedItem != null)
+            {
+                pelaajat.Remove(listBox.SelectedItem as Pelaaja);
+                statusBarText.Text = "Pelaaja poistettu.";
+            }
         }
 
         private void button_tallenna_Click(object sender, RoutedEventArgs e)
         {
             if (!tarkasta())
             {
-                Pelaaja pelaaja = (Pelaaja)(listBox.SelectedItem);
-                pelaaja.etunimi = textBox_etunimi.Text;
-                pelaaja.sukunimi = textBox_sukunimi.Text;
-                pelaaja.siirtohinta = double.Parse(textBox_siirtohinta.Text);
-                pelaaja.seura = comboBox_seura.SelectedItem.ToString();
-                listBox.Items.Refresh();
+                (listBox.SelectedItem as Pelaaja).etunimi = textBox_etunimi.Text;
+                (listBox.SelectedItem as Pelaaja).sukunimi = textBox_sukunimi.Text;
+                (listBox.SelectedItem as Pelaaja).siirtohinta = double.Parse(textBox_siirtohinta.Text);
+                (listBox.SelectedItem as Pelaaja).seura = comboBox_seura.SelectedItem.ToString();
+                statusBarText.Text = "Pelaajaa muokattu.";
             }
+            else statusBarText.Text = "Ilmeni mystinen virhe!";
+        }
+
+        private void button_lopetus_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void button_kirjoita_Click(object sender, RoutedEventArgs e)
+        {
+            StreamWriter file = new System.IO.StreamWriter("pelaajat.LIIGA");
+            foreach (Pelaaja pelaaja in pelaajat)
+            {
+                file.WriteLine(pelaaja.etunimi + ";" + pelaaja.sukunimi + ";" + pelaaja.seura + ";" + pelaaja.siirtohinta);
+            }
+            file.Close();
+            statusBarText.Text = "Pelaajien tiedot kirjoitettu tiedostoon 'pelaajat.LIIGA'.";
         }
 
         private bool tarkasta()
@@ -97,27 +127,20 @@ namespace Teht3
             return virhe;
         }
 
-        private void button_lopetus_Click(object sender, RoutedEventArgs e)
+        private bool tarkastaUusi()
         {
-            Application.Current.Shutdown();
-        }
-
-        private void button_kirjoita_Click(object sender, RoutedEventArgs e)
-        {
-            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
-            dlg.FileName = "pellaajat"; // Default file name
-            dlg.DefaultExt = ".txt"; // Default file extension
-            dlg.Filter = "Text documents (.txt)|*.txt"; // Filter files by extension 
-
-            // Show save file dialog box
-            Nullable<bool> result = dlg.ShowDialog();
-
-            // Process save file dialog box results 
-            if (result == true)
+            bool virhe = false;
+            foreach (Pelaaja pelaaja in pelaajat)
             {
-                // Save document 
-                string filename = dlg.FileName;
+                if (pelaaja.etunimi + pelaaja.sukunimi == textBox_etunimi.Text + textBox_sukunimi.Text) virhe = true;
             }
+            if (textBox_etunimi.Text == "") virhe = true;
+            if (textBox_sukunimi.Text == "") virhe = true;
+            if (comboBox_seura.Text == "") virhe = true;
+            if (textBox_siirtohinta.Text == "") virhe = true;
+            double luku = 0;
+            if (!double.TryParse(textBox_siirtohinta.Text, out luku)) virhe = true;
+            return virhe;
         }
     }
 }

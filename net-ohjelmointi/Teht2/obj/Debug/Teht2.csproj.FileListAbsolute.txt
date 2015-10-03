@@ -25,3 +25,17 @@ D:\H3173\net-ohjelmointi\Teht2\obj\Debug\MainWindow.baml
 D:\H3173\net-ohjelmointi\Teht2\obj\Debug\Lotto.g.resources
 D:\H3173\net-ohjelmointi\Teht2\obj\Debug\Teht2.Properties.Resources.resources
 D:\H3173\net-ohjelmointi\Teht2\obj\Debug\Teht2.csproj.GenerateResource.Cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\bin\Debug\Lotto.exe.config
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Lotto.exe
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Lotto.pdb
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\bin\Debug\Lotto.exe
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\bin\Debug\Lotto.pdb
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Teht2.csprojResolveAssemblyReference.cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\MainWindow.g.cs
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\App.g.cs
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Lotto_MarkupCompile.cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Lotto_MarkupCompile.lref
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\MainWindow.baml
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Lotto.g.resources
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Teht2.Properties.Resources.resources
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht2\obj\Debug\Teht2.csproj.GenerateResource.Cache
