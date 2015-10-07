@@ -1,0 +1,17 @@
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\JsonDemo.exe.config
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\JsonDemo.exe
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\JsonDemo.pdb
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\Newtonsoft.Json.dll
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\Newtonsoft.Json.pdb
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\bin\Debug\Newtonsoft.Json.xml
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.csprojResolveAssemblyReference.cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\MainWindow.g.cs
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\App.g.cs
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo_MarkupCompile.cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo_MarkupCompile.lref
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\MainWindow.baml
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.g.resources
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.Properties.Resources.resources
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.csproj.GenerateResource.Cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.exe
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\JsonDemo\obj\Debug\JsonDemo.pdb

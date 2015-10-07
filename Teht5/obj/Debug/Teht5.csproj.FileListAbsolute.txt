@@ -11,3 +11,17 @@ d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht5\obj\Debug
 d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht5\obj\Debug\Teht5.csproj.GenerateResource.Cache
 d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht5\obj\Debug\Teht5.exe
 d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\net-ohjelmointi\Teht5\obj\Debug\Teht5.pdb
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\bin\Debug\Teht5.exe.config
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.exe
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.pdb
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\bin\Debug\Teht5.exe
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\bin\Debug\Teht5.pdb
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.csprojResolveAssemblyReference.cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\MainWindow.g.cs
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\App.g.cs
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5_MarkupCompile.cache
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5_MarkupCompile.lref
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\MainWindow.baml
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.g.resources
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.Properties.Resources.resources
+d:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht5\obj\Debug\Teht5.csproj.GenerateResource.Cache
