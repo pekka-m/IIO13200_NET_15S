@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<palautteet>
+  <palaute>
+    <tekija>Testi</tekija>
+    <opittu>minä olen oppinut paljon asioita</opittu>
+    <haluanoppia>minä haluan oppia vielä paljon enemmän asioita</haluanoppia>
+    <hyvaa>tääällä on kaikki hyvää</hyvaa>
+    <parannettavaa>täällä on kaikki parannettavaa</parannettavaa>
+    <muuta>minulla ei ole mitään muuta</muuta>
+  </palaute>
+  <palaute>Tämä on eeppinen testijuttu</palaute>
+  <palaute>
+    <tekija>TestiTekijä</tekija>
+  </palaute>
+  <palaute>
+    <tekija>tähän jotain muuta</tekija>
+  </palaute>
+  <palaute>
+    <tekija>tähän jotain muuta</tekija>
+    <opittu />
+    <haluanoppia />
+    <hyvaa />
+    <parannettavaa />
+    <muuta />
+  </palaute>
+  <palaute>
+    <tekija>TestiTekijä</tekija>
+    <opittu>Testi-opittu</opittu>
+    <haluanoppia>Testi haluanoppia</haluanoppia>
+    <hyvaa>hyvaaaaaaaa</hyvaa>
+    <parannettavaa>baranneddawaa</parannettavaa>
+    <muuta>tähän jotain muuta</muuta>
+  </palaute>
+</palautteet>

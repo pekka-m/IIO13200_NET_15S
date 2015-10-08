@@ -1,0 +1,14 @@
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\bin\Debug\Opintojakson palaute.exe.config
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\bin\Debug\Opintojakson palaute.exe
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\bin\Debug\Opintojakson palaute.pdb
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Teht8.csprojResolveAssemblyReference.cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\MainWindow.g.cs
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\App.g.cs
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Opintojakson palaute_MarkupCompile.cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Opintojakson palaute_MarkupCompile.lref
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\MainWindow.baml
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Opintojakson palaute.g.resources
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Teht8.Properties.Resources.resources
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Teht8.csproj.GenerateResource.Cache
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Opintojakson palaute.exe
+D:\Users\Pekka\Documents\GitHub\IIO13200_NET_15S\Teht8\obj\Debug\Opintojakson palaute.pdb

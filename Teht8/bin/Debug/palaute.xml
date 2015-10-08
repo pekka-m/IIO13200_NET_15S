@@ -1,0 +1,61 @@
+<palautteet>
+  <palaute>
+    <tekija>TestiTekijä</tekija>
+    <opittu>Testi-opittu</opittu>
+    <haluanoppia>Testi haluanoppia</haluanoppia>
+    <hyvaa>hyvaaaaaaaa</hyvaa>
+    <parannettavaa>baranneddawaa</parannettavaa>
+    <muuta>tähän jotain muuta</muuta>
+  </palaute>
+  <palaute>
+    <tekija>TestiTekijä</tekija>
+    <opittu>Testi-opittu</opittu>
+    <haluanoppia>Testi haluanoppia</haluanoppia>
+    <hyvaa>hyvaaaaaaaa</hyvaa>
+    <parannettavaa>baranneddawaa</parannettavaa>
+    <muuta>tähän jotain muuta</muuta>
+  </palaute>
+  <palaute>
+    <pvm>20151008</pvm>
+    <tekija>TestiTekijä</tekija>
+    <opittu>Testi-opittu</opittu>
+    <haluanoppia>Testi haluanoppia</haluanoppia>
+    <hyvaa>hyvaaaaaaaa</hyvaa>
+    <parannettavaa>baranneddawaa</parannettavaa>
+    <muuta>tähän jotain muuta</muuta>
+  </palaute>
+  <palaute>
+    <pvm>20151008</pvm>
+    <tekija>Minä</tekija>
+    <opittu>olen oppinut</opittu>
+    <haluanoppia>ja haluan oppia</haluanoppia>
+    <hyvaa>jotain hyvää</hyvaa>
+    <parannettavaa>jossa olisi kuitenkin vielä parannettavaa</parannettavaa>
+    <muuta>ei minulla muuta</muuta>
+  </palaute>
+  <palaute>
+    <pvm>20151008</pvm>
+    <tekija>
+    </tekija>
+    <opittu>
+    </opittu>
+    <haluanoppia>
+    </haluanoppia>
+    <hyvaa>
+    </hyvaa>
+    <parannettavaa>
+    </parannettavaa>
+    <muuta>
+    </muuta>
+  </palaute>
+  <palaute>
+    <pvm>20151008</pvm>
+    <tekija>asd</tekija>
+    <opittu>asd</opittu>
+    <haluanoppia>asd</haluanoppia>
+    <hyvaa>asd</hyvaa>
+    <parannettavaa>asd</parannettavaa>
+    <muuta>
+    </muuta>
+  </palaute>
+</palautteet>

@@ -1,0 +1,77 @@
+﻿<Window x:Class="Teht8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teht8"
+        mc:Ignorable="d"
+        Title="Opintojakson palaute" Height="591.176" Width="574.02">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="287*"/>
+            <ColumnDefinition Width="257*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="2">
+            <TabItem Header="Anna palaute">
+                <Grid>
+                    <Label x:Name="label_nimi" Content="Nimi" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" />
+                    <TextBox x:Name="textBox_nimi" TextWrapping="NoWrap" Width="100" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="107,10,0,0" />
+                    <Label x:Name="label_olen_oppinut" Content="Olen oppinut" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,55,0,0" />
+                    <TextBox x:Name="textBox_olen_oppinut" TextWrapping="Wrap" Height="70" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="107,55,10,0" />
+                    <Label x:Name="label_haluan_oppia" Content="Haluan oppia" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,130,0,0" />
+                    <TextBox x:Name="textBox_haluan_oppia" TextWrapping="Wrap" Height="84" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="107,130,10,0" />
+                    <Label x:Name="label_hyvaa" Content="Hyvää" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,219,0,0" />
+                    <TextBox x:Name="textBox_hyvaa" TextWrapping="Wrap" Height="79" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="107,219,10,0" />
+                    <Label x:Name="label_parannettavaa" Content="Parannettavaa" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,303,0,0" />
+                    <TextBox x:Name="textBox_parannettavaa" TextWrapping="Wrap" Height="81" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="107,303,10,0" />
+                    <Label x:Name="label_muuta" Content="Muuta" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,389,0,0" />
+                    <TextBox x:Name="textBox_muuta" TextWrapping="Wrap" Height="80" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="107,389,10,0" />
+                    <Button x:Name="button_laheta" Content="Lähetä palaute" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="30" Click="button_laheta_Click" Margin="0,474,10,0"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Selaa palautteita">
+                <DataGrid x:Name="datagrid_palautteet" AutoGenerateColumns="False" ItemsSource="{Binding Path=Elements[palaute]}" Margin="10 10 10 10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Pvm" Binding="{Binding Path=Element[pvm].Value}" />
+                        <DataGridTextColumn Header="Nimi" Binding="{Binding Path=Element[tekija].Value}" />
+                        <DataGridTemplateColumn Header="Olen oppinut" Width="200" >
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Element[opittu].Value}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Haluan oppia" Width="200" >
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Element[haluanoppia].Value}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Hyvää" Width="200" >
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Element[hyvaa].Value}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Parannettavaa" Width="200" >
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Element[parannettavaa].Value}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Muuta" Width="200" >
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=Element[muuta].Value}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
